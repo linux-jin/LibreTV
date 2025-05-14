@@ -30,6 +30,26 @@ const API_SITES = {
         api: 'https://cj.rycjapi.com',
         name: '如意资源',
     },
+    jinchan: {
+        api: 'http://jczy.jinchan.pro',
+        name: '金蝉资源',
+    },
+    wuxianzy: {
+        api: 'https://api.wuxianzy.net',
+        name: '无线资源',
+    },
+    fqzy: {
+        api: 'https://fqzy.me',
+        name: '番茄资源',
+    },
+    qilinzyz: {
+        api: 'https://www.qilinzyz.com',
+        name: '麒麟资源',
+    },
+    mozhuazy: {
+        api: 'https://mozhuazy.com',
+        name: '魔爪资源',
+    },
     bfzy: {
         api: 'https://bfzyapi.com',
         name: '暴风资源',
@@ -63,6 +83,14 @@ const API_SITES = {
     hwba: {
         api: 'https://cjhwba.com',
         name: '华为吧资源',
+    },
+    maotaizy: {
+        api: 'https://caiji.maotaizy.cc',
+        name: '茅台资源',
+    },
+    xxibaozyw: {
+        api: 'https://www.xxibaozyw.com',
+        name: 'X细胞资源',
     },
     jisu: {
         api: 'https://jszyapi.com',
