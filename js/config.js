@@ -31,23 +31,23 @@ const API_SITES = {
         name: '如意资源',
     },
     jinchan: {
-        api: 'http://jczy.jinchan.pro',
+        api: 'http://jczy.jinchan.pro/api.php/provide/vod',
         name: '金蝉资源',
     },
     wuxianzy: {
-        api: 'https://api.wuxianzy.net',
+        api: 'https://api.wuxianzy.net/api.php/provide/vod',
         name: '无线资源',
     },
     fqzy: {
-        api: 'https://fqzy.me',
+        api: 'https://fqzy.me/api.php/provide/vod',
         name: '番茄资源',
     },
     qilinzyz: {
-        api: 'https://www.qilinzyz.com',
+        api: 'https://www.qilinzyz.com/api.php/provide/vod',
         name: '麒麟资源',
     },
     mozhuazy: {
-        api: 'https://mozhuazy.com',
+        api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
     },
     bfzy: {
@@ -89,11 +89,11 @@ const API_SITES = {
         name: '华为吧资源',
     },
     maotaizy: {
-        api: 'https://caiji.maotaizy.cc',
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台资源',
     },
     xxibaozyw: {
-        api: 'https://www.xxibaozyw.com',
+        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
         name: 'X细胞资源',
     },
     jisu: {
@@ -138,88 +138,88 @@ const API_SITES = {
         name: 'iKun资源'
     },
     ckzy: {
-        api: 'https://www.ckzy1.com',
+        api: 'https://www.ckzy1.com/api.php/provide/vod',
         name: 'CK资源',
         adult: true
     },
     jkun: {
-        api: 'https://jkunzyapi.com',
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
         name: 'jkun资源',
         adult: true
     },
     bwzy: {
-        api: 'https://api.bwzym3u8.com',
+        api: 'https://api.bwzym3u8.com/api.php/provide/vod',
         name: '百万资源',
         adult: true
     },
     souav: {
-        api: 'https://api.souavzy.vip',
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
         name: 'souav资源',
         adult: true
     },
     r155: {
-        api: 'https://155api.com',
+        api: 'https://155api.com/api.php/provide/vod',
         name: '155资源',
         adult: true
     },
     lsb: {
-        api: 'https://apilsbzy1.com',
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
         name: 'lsb资源',
         adult: true
     },
     huangcang: {
-        api: 'https://hsckzy.vip',
+        api: 'https://hsckzy.vip/api.php/provide/vod',
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip'
     },
     yutu: {
-        api: 'https://yutuzy10.com',
+        api: 'https://yutuzy10.com/api.php/provide/vod',
         name: '玉兔资源',
         adult: true
     },
     xingba: {
-        api: 'https://xingba111.com',
+        api: 'https://xingba111.com/api.php/provide/vod',
         name: '杏吧资源',
         adult: true
     },
     xiaojizy: {
-        api: 'https://api.xiaojizy.live',
+        api: 'https://api.xiaojizy.live/api.php/provide/vod',
         name: '小鸡资源',
         adult: true
     },
     jipinzyapi: {
-        api: 'https://jipinzyapi.com',
+        api: 'https://jipinzyapi.com/api.php/provide/vod',
         name: '极品X资源',
         adult: true
     },
     siwazyw: {
-        api: 'https://siwazyw.tv',
+        api: 'https://siwazyw.tv/api.php/provide/vod',
         name: '丝袜资源',
         adult: true
     },
     semaozy: {
-        api: 'https://caiji.semaozy.net',
+        api: 'https://caiji.semaozy.net/api.php/provide/vod',
         name: '色猫资源',
         adult: true
     },
     ekanapi: {
-        api: 'https://api.ekanapi.com',
+        api: 'https://api.ekanapi.com/api.php/provide/vod',
         name: '易看资源',
         adult: true
     },
     naixxzy: {
-        api: 'https://naixxzy.com',
+        api: 'https://naixxzy.com/api.php/provide/vod',
         name: '奶香香资源',
         adult: true
     },
     apilj: {
-        api: 'https://apilj.com',
+        api: 'https://apilj.com/api.php/provide/vod',
         name: '辣椒资源',
         adult: true
     },
     dadiapi: {
-        api: 'https://dadiapi.com',
+        api: 'https://dadiapi.com/api.php/provide/vod',
         name: '大地资源',
         adult: true
     },
