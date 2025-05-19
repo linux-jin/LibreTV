@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('selectedAPIs', JSON.stringify(selectedAPIs));
 
         // 默认选中过滤开关
-        localStorage.setItem('yellowFilterEnabled', 'false');
+        localStorage.setItem('yellowFilterEnabled', 'true');
         localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'true');
 
         // 默认启用豆瓣功能
