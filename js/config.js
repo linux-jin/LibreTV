@@ -184,6 +184,7 @@ const API_SITES = {
       xxibaozyw: {
         api: 'https://www.xxibaozyw.com/api.php/provide/vod',
         name: '🔞X细胞资源',
+        adult: true,
       },
       fqzy: {
         api: 'https://fqzy.me/api.php/provide/vod',
