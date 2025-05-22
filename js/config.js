@@ -23,28 +23,16 @@ const SITE_CONFIG = {
 const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '🔵电影天堂资源',
+        name: '🔵电影天堂',
         detail: 'http://caiji.dyttzyapi.com',
       },
       ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '🔵如意资源',
       },
-      jinchan: {
-        api: 'http://jczy.jinchan.pro/api.php/provide/vod',
-        name: '🔵金蝉资源',
-      },
       wuxianzy: {
         api: 'https://api.wuxianzy.net/api.php/provide/vod',
         name: '🔵无线资源',
-      },
-      fqzy: {
-        api: 'https://fqzy.me/api.php/provide/vod',
-        name: '🔵番茄资源',
-      },
-      qilinzyz: {
-        api: 'https://www.qilinzyz.com/api.php/provide/vod',
-        name: '🔵麒麟资源',
       },
       mozhuazy: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
@@ -92,10 +80,6 @@ const API_SITES = {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '🔵茅台资源',
       },
-      xxibaozyw: {
-        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
-        name: '🔵X细胞资源',
-      },
       jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '🔵极速资源',
@@ -133,10 +117,6 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: '🔵iKun资源',
       },
-      'haiwaikan.com': {
-        api: 'https://haiwaikan.com/api.php/provide/vod',
-        name: '🔵海外看',
-      },
       'ukuapi.com': {
         api: 'https://api.ukuapi.com/api.php/provide/vod',
         name: '🔵u酷源',
@@ -157,21 +137,9 @@ const API_SITES = {
         api: 'https://lovedan.net/api.php/provide/vod',
         name: '🔵艾旦资源',
       },
-      'fszy1.com': {
-        api: 'http://fszy1.com/api.php/provide/vod',
-        name: '🔵飞速资源2',
-      },
-      'm3u8.feisuzyapi.com': {
-        api: 'https://m3u8.feisuzyapi.com/api.php/provide/vod',
-        name: '🔵飞速资源3',
-      },
       'suoniapi.com': {
         api: 'https://suoniapi.com/api.php/provide/vod',
         name: '🔵索尼资源',
-      },
-      'tiankongapi.com': {
-        api: 'https://api.tiankongapi.com/api.php/provide/vod',
-        name: '🔵天空资源',
       },
       'guangsuapi.com': {
         api: 'https://api.guangsuapi.com/api.php/provide/vod',
@@ -180,10 +148,6 @@ const API_SITES = {
       'collect.wolongzyw.com': {
         api: 'https://collect.wolongzyw.com/api.php/provide/vod',
         name: '🔵卧龙资源',
-      },
-      'caiji.kczyapi.com': {
-        api: 'https://caiji.kczyapi.com/api.php/provide/vod',
-        name: '🔵快车资源',
       },
       'apiyhzy.com': {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
@@ -197,21 +161,9 @@ const API_SITES = {
         api: 'https://p2100.net/api.php/provide/vod',
         name: '🔵飘零资源',
       },
-      'bajiecaiji.com': {
-        api: 'http://cj.bajiecaiji.com/inc/apijson_vod.php',
-        name: '🔵八戒资源(php)',
-      },
       'api.apibdzy.com': {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '🔵百度资源',
-      },
-      'cj.vodimg.top': {
-        api: 'https://cj.vodimg.top/api.php/provide/vod',
-        name: '🔵影图资源',
-      },
-      'img.smdyw.top': {
-        api: 'https://img.smdyw.top/api.php/provide/vod',
-        name: '🔵神马资源',
       },
       'subocaiji.com': {
         api: 'https://subocaiji.com/api.php/provide/vod',
@@ -225,49 +177,17 @@ const API_SITES = {
         api: 'https://hhzyapi.com/api.php/provide/vod',
         name: '🔵火狐资源',
       },
-      'api.xinlangapi.com': {
-        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
-        name: '🔵新浪资源',
-      },
       'www.huyaapi.com': {
         api: 'https://www.huyaapi.com/api.php/provide/vod',
         name: '🔵虎牙资源',
       },
-      'kuaikan-api.com': {
-        api: 'https://kuaikan-api.com/api.php/provide/vod',
-        name: '🔵快看资源',
+      xxibaozyw: {
+        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
+        name: '🔞X细胞资源',
       },
-      'api.wujinapi.me': {
-        api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '🔵无尽资源资源me',
-      },
-      'api.wujinapi.net': {
-        api: 'https://api.wujinapi.net/api.php/provide/vod',
-        name: '🔵无尽资源资源net',
-      },
-      'api.wujinapi.com': {
-        api: 'https://api.wujinapi.com/api.php/provide/vod',
-        name: '🔵无尽资源资源com',
-      },
-      'www.911ysw.top': {
-        api: 'https://www.911ysw.top/tianyi.php/provide/vod/',
-        name: '🔵天翼资源',
-      },
-      'www.39kan.com': {
-        api: 'https://www.39kan.com/api.php/provide/vod/',
-        name: '🔵39影视',
-      },
-      'cj.baozi66.top': {
-        api: 'http://cj.baozi66.top:66/api.php/provide/vod/',
-        name: '🔵雨哥哥影视',
-      },
-      'api.yparse.com': {
-        api: 'https://api.yparse.com/api/json',
-        name: '🔵步步高资源(json)',
-      },
-      ckzy: {
-        api: 'https://www.ckzy1.com/api.php/provide/vod',
-        name: '🔞CK资源',
+      fqzy: {
+        api: 'https://fqzy.me/api.php/provide/vod',
+        name: '🔞番茄资源',
         adult: true,
       },
       jkun: {
@@ -311,44 +231,19 @@ const API_SITES = {
         name: '🔞杏吧资源',
         adult: true,
       },
-      xiaojizy: {
-        api: 'https://api.xiaojizy.live/api.php/provide/vod',
-        name: '🔞小鸡资源',
-        adult: true,
-      },
-      jipinzyapi: {
-        api: 'https://jipinzyapi.com/api.php/provide/vod',
-        name: '🔞极品X资源',
-        adult: true,
-      },
       siwazyw: {
         api: 'https://siwazyw.tv/api.php/provide/vod',
         name: '🔞丝袜资源',
         adult: true,
       },
-      semaozy: {
-        api: 'https://caiji.semaozy.net/api.php/provide/vod',
-        name: '🔞色猫资源',
-        adult: true,
-      },
-      ekanapi: {
-        api: 'https://api.ekanapi.com/api.php/provide/vod',
-        name: '🔞易看资源',
-        adult: true,
-      },
       naixxzy: {
         api: 'https://naixxzy.com/api.php/provide/vod',
-        name: '🔞奶香香资源',
+        name: '🔞奶香资源',
         adult: true,
       },
       apilj: {
         api: 'https://apilj.com/api.php/provide/vod',
         name: '🔞辣椒资源',
-        adult: true,
-      },
-      dadiapi: {
-        api: 'https://dadiapi.com/api.php/provide/vod',
-        name: '🔞大地资源',
         adult: true,
       },
       aosikazy: {
